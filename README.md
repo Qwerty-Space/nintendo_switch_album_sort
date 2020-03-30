@@ -2,9 +2,11 @@
 Sorts Nintendo Switch albums into something more navigable 
 Will sort photos and videos with the format `YYYmmDDHHMMSS....jpg` into pre-determined directories, with filenames similar to Android photos (`IMG_YYYYmmDD` or `VID_YYYYmmDD`).
 
-## Usage
+## Requirements
+• >= python 3.7
 
-`python sort.py`
+## Usage
+Save `nintendo_sort.py` into the folder you want your albums saving into, create a `sort` directory, and put the folders copied from your Nintendo Switch in there.  Then run `python nintendo_sort.py`
 
 Default directory structure is:
 ```
